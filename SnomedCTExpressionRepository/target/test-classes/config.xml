@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <database>
+        <url>jdbc:postgresql://127.0.0.1/postgres</url>
+        <username>postgres</username>
+        <password>thisshouldbeyourpassword</password>
+    </database>
+    <release_date>2016-01-31</release_date>
+	<release_date_time>2016-01-31 00:00:00</release_date_time>
+    <owlapi>
+     	<!--<url>file:///home/medhanie/Documents/2nd_year_courses/My_thesis_work/SnomedCT_Release_files/SnomedCT_RF2Release_INT_20160131/Resources/snomedct_owlf.owl</url> -->
+ 		<url>file:///home/medhanie/Documents/2nd_year_courses/My_thesis_work/SnomedCT_Release_files/SnomedCT_RF2Release_INT_20160131/Resources/StatedRelationshipsToOwlKRSS/snomedct_owlf.owl</url>
+    </owlapi>
+</configuration>

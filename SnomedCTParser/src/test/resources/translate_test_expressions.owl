@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://snomed.info/"
+     xml:base="http://snomed.info/"
+     xmlns:field="http://snomed.info/field/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://snomed.info/test"/>
+    
+    <owl:Class rdf:about="http://snomed.info/id/120205009">
+        <rdfs:label>Inguinal region repair (procedure)</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/4365001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/260686004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/257903006"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/405813007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/26893007"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <field:Description.term.en-us.preferred>Inguinal region repair</field:Description.term.en-us.preferred>
+    </owl:Class>
+</rdf:RDF>

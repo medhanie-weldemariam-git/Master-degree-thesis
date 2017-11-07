@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="SctDiagram"><defs id="SctDiagramsDefs">
+<marker id="BlackTriangle" refX="0" refY="10" markerWidth="8"
+markerHeight="6" orient="auto" viewBox="0 0 22 20" markerUnits="strokeWidth"
+fill="black" stroke="black" stroke-width="2">
+<path d="M 0 0 L 20 10 L 0 20 z"></path>
+</marker>
+<marker id="ClearTriangle" refX="0" refY="10" markerWidth="8"
+markerHeight="8" orient="auto" viewBox="0 0 22 20" markerUnits="strokeWidth"
+fill="white" stroke="black" stroke-width="2">
+<path d="M 0 0 L 20 10 L 0 20 z"></path>
+</marker>
+<marker id="LineMarker" refX="0" refY="10" markerWidth="8"
+markerHeight="8" orient="auto" viewBox="0 0 22 20" markerUnits="strokeWidth"
+fill="white" stroke="black" stroke-width="2">
+<path d="M 0 10 L 20 10"></path>
+</marker>
+</defs><g transform="translate(0,0)"><!-- Core temperature (observable entity)-->
+<rect x="0" y="0" width="249" height="40" fill="#99ccff" stroke="#333"
+stroke-width="1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">123456789</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">Core temperature (observable entity)</text></g><g transform="translate(40,50)"><polyline points="0,-10 0,30 20,30" id="poly1" fill="none"
+stroke="black" stroke-width="2" marker-end="url(#BlackTriangle)" />
+<circle cx="52" cy="30" r="20" fill="white" stroke="black"
+stroke-width="2" />
+<line x1="45" y1="25" x2="59" y2="25" stroke="black"
+stroke-width="2" />
+<line x1="45" y1="30" x2="59" y2="30" stroke="black"
+stroke-width="2" />
+<line x1="45" y1="35" x2="59" y2="35" stroke="black"
+stroke-width="2" />
+<polyline points="72,30 84,30" fill="none" stroke="black" stroke-width="2"/>
+</g><g transform="translate(124,60)"><circle cx="10" cy="20" r="10" fill="black" stroke="black" stroke-width="2" />
+<g transform="translate(20,0)"><polyline points="0,20 12,20" fill="none" stroke="black" stroke-width="2" marker-end="url(#ClearTriangle)"/>
+<g transform="translate(28,0)"><!-- Observable entity (observable entity)-->
+<rect x="0" y="0" width="249" height="40" fill="#99ccff" stroke="#333"
+stroke-width="1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">363787002</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">Observable entity (observable entity)</text></g></g><g transform="translate(20,50)"><polyline points="-10,-20 -10,20 14,20" id="poly1" fill="none"
+stroke="blue" stroke-width="2" marker-end="url(#BlackTriangle)" /></g><g transform="translate(48,50)"><g transform="translate(0,0)"></g><g transform="translate(0,0)"><!-- Specified by (attribute)-->
+<rect x="0" y="0" width="163" height="40" rx="18" ry="18" id="rect56"
+style="fill:#ffffcc;stroke:#333333;stroke-width:1" />
+<rect x="2" y="2" width="159" height="36" rx="18" ry="18" id="rect17"
+style="fill:#ffffcc;stroke:#333333;stroke-width:1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">704346009</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">Specified by (attribute)</text>
+
+<polyline points="163,20 190,20" fill="none" stroke="black"
+stroke-width="2" marker-end="url(#BlackTriangle)" /><g transform="translate(203,0)"><circle cx="10" cy="20" r="10" fill="black" stroke="black" stroke-width="2" />
+<g transform="translate(20,0)"><polyline points="0,20 12,20" fill="none" stroke="black" stroke-width="2" marker-end="url(#ClearTriangle)"/>
+<g transform="translate(28,0)"><!-- Evaluation procedure (procedure)-->
+<rect x="0" y="0" width="227" height="40" fill="#99ccff" stroke="#333"
+stroke-width="1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">386053000</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">Evaluation procedure (procedure)</text></g></g><g transform="translate(20,50)"><polyline points="-10,-20 -10,20 14,20" id="poly1" fill="none"
+stroke="blue" stroke-width="2" marker-end="url(#BlackTriangle)" /></g><g transform="translate(48,50)"><!-- Direct site (attribute)-->
+<rect x="0" y="0" width="151" height="40" rx="18" ry="18" id="rect56"
+style="fill:#ffffcc;stroke:#333333;stroke-width:1" />
+<rect x="2" y="2" width="147" height="36" rx="18" ry="18" id="rect17"
+style="fill:#ffffcc;stroke:#333333;stroke-width:1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">704327008</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">Direct site (attribute)</text>
+
+<polyline points="151,20 178,20" fill="none" stroke="black"
+stroke-width="2" marker-end="url(#BlackTriangle)" /><g transform="translate(191,0)"><!-- Tympanic membrane structure (body structure)-->
+<rect x="0" y="0" width="312" height="40" fill="#99ccff" stroke="#333"
+stroke-width="1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">42859004</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">Tympanic membrane structure (body structure)</text></g></g></g></g><g transform="translate(40,100)"><polyline points="-38,-120 -38,20 -14,20" id="poly1" fill="none"
+stroke="red" stroke-width="2" marker-end="url(#BlackTriangle)" /></g><g transform="translate(40,100)"><!-- Is about (attribute)-->
+<rect x="0" y="0" width="137" height="40" rx="18" ry="18" id="rect56"
+style="fill:#ffffcc;stroke:#333333;stroke-width:1" />
+<rect x="2" y="2" width="133" height="36" rx="18" ry="18" id="rect17"
+style="fill:#ffffcc;stroke:#333333;stroke-width:1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">704647008</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">Is about (attribute)</text>
+
+<polyline points="137,20 164,20" fill="none" stroke="black"
+stroke-width="2" marker-end="url(#BlackTriangle)" /><g transform="translate(177,0)"><circle cx="10" cy="20" r="10" fill="black" stroke="black" stroke-width="2" />
+<g transform="translate(20,0)"><polyline points="0,20 12,20" fill="none" stroke="black" stroke-width="2" marker-end="url(#ClearTriangle)"/>
+<g transform="translate(28,0)"><!-- Feature of entity  (qualifier value)-->
+<rect x="0" y="0" width="226" height="40" fill="#99ccff" stroke="#333"
+stroke-width="1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">123456789</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">Feature of entity  (qualifier value)</text></g></g><g transform="translate(20,50)"><polyline points="-10,-20 -10,20 14,20" id="poly1" fill="none"
+stroke="blue" stroke-width="2" marker-end="url(#BlackTriangle)" /></g><g transform="translate(48,50)"><g transform="translate(0,0)"></g><g transform="translate(0,0)"><!-- Property type (attribute)-->
+<rect x="0" y="0" width="171" height="40" rx="18" ry="18" id="rect56"
+style="fill:#ffffcc;stroke:#333333;stroke-width:1" />
+<rect x="2" y="2" width="167" height="36" rx="18" ry="18" id="rect17"
+style="fill:#ffffcc;stroke:#333333;stroke-width:1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">704318007</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">Property type (attribute)</text>
+
+<polyline points="171,20 198,20" fill="none" stroke="black"
+stroke-width="2" marker-end="url(#BlackTriangle)" /><g transform="translate(211,0)"><!-- Temperature (qualifier value)-->
+<rect x="0" y="0" width="201" height="40" fill="#99ccff" stroke="#333"
+stroke-width="1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">123456789</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">Temperature (qualifier value)</text></g></g><g transform="translate(0,50)"><polyline points="-38,-70 -38,20 -14,20" id="poly1" fill="none"
+stroke="red" stroke-width="2" marker-end="url(#BlackTriangle)" /></g><g transform="translate(0,50)"><!-- Inheres in (attribute)-->
+<rect x="0" y="0" width="148" height="40" rx="18" ry="18" id="rect56"
+style="fill:#ffffcc;stroke:#333333;stroke-width:1" />
+<rect x="2" y="2" width="144" height="36" rx="18" ry="18" id="rect17"
+style="fill:#ffffcc;stroke:#333333;stroke-width:1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">704319004</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">Inheres in (attribute)</text>
+
+<polyline points="148,20 175,20" fill="none" stroke="black"
+stroke-width="2" marker-end="url(#BlackTriangle)" /><g transform="translate(188,0)"><!-- Body internal region (body structure)-->
+<rect x="0" y="0" width="247" height="40" fill="#99ccff" stroke="#333"
+stroke-width="1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">278826002</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">Body internal region (body structure)</text></g></g><g transform="translate(0,100)"><polyline points="-38,-120 -38,20 -14,20" id="poly1" fill="none"
+stroke="red" stroke-width="2" marker-end="url(#BlackTriangle)" /></g><g transform="translate(0,100)"><!-- hej-->
+<rect x="0" y="0" width="84" height="40" rx="18" ry="18" id="rect56"
+style="fill:#ffffcc;stroke:#333333;stroke-width:1" />
+<rect x="2" y="2" width="80" height="36" rx="18" ry="18" id="rect17"
+style="fill:#ffffcc;stroke:#333333;stroke-width:1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">123</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">hej</text>
+
+<polyline points="84,20 111,20" fill="none" stroke="black"
+stroke-width="2" marker-end="url(#BlackTriangle)" /><g transform="translate(124,0)"><!-- hopp-->
+<rect x="0" y="0" width="84" height="40" fill="#99ccff" stroke="#333"
+stroke-width="1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">454</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">hopp</text></g></g></g></g></g><g transform="translate(80,300)"><polyline points="-38,-320 -38,20 -14,20" id="poly1" fill="none"
+stroke="red" stroke-width="2" marker-end="url(#BlackTriangle)" /></g><g transform="translate(80,300)"><!-- tjo-->
+<rect x="0" y="0" width="84" height="40" rx="18" ry="18" id="rect56"
+style="fill:#ffffcc;stroke:#333333;stroke-width:1" />
+<rect x="2" y="2" width="80" height="36" rx="18" ry="18" id="rect17"
+style="fill:#ffffcc;stroke:#333333;stroke-width:1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">123</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">tjo</text>
+
+<polyline points="84,20 111,20" fill="none" stroke="black"
+stroke-width="2" marker-end="url(#BlackTriangle)" /><g transform="translate(124,0)"><!-- hopp-->
+<rect x="0" y="0" width="84" height="40" fill="#99ccff" stroke="#333"
+stroke-width="1" />
+<text x="12" y="17"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="10">454</text>
+<text x="12" y="31" id="text61"
+font-family="&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"
+font-size="12">hopp</text></g></g></g></g></svg>

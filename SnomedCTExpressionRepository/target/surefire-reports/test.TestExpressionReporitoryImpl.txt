@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: test.TestExpressionReporitoryImpl
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.317 sec <<< FAILURE!
+test.TestExpressionReporitoryImpl  Time elapsed: 1.316 sec  <<< ERROR!
+org.semanticweb.owlapi.io.OWLOntologyCreationIOException: home
+	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:207)
+	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1061)
+	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1017)
+	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntologyFromOntologyDocument(OWLOntologyManagerImpl.java:960)
+	at se.liu.imt.mi.snomedct.expressionrepository.ExpressionRepositoryImpl.<init>(ExpressionRepositoryImpl.java:105)
+	at test.TestExpressionReporitoryImpl.oneTimeSetUp(TestExpressionReporitoryImpl.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.net.UnknownHostException: home
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
+	at java.net.Socket.connect(Socket.java:579)
+	at sun.net.ftp.impl.FtpClient.doConnect(FtpClient.java:953)
+	at sun.net.ftp.impl.FtpClient.tryConnect(FtpClient.java:918)
+	at sun.net.ftp.impl.FtpClient.connect(FtpClient.java:1013)
+	at sun.net.ftp.impl.FtpClient.connect(FtpClient.java:999)
+	at sun.net.www.protocol.ftp.FtpURLConnection.connect(FtpURLConnection.java:294)
+	at sun.net.www.protocol.ftp.FtpURLConnection.getInputStream(FtpURLConnection.java:393)
+	at org.semanticweb.owlapi.io.AbstractOWLParser.getInputStreamFromContentEncoding(AbstractOWLParser.java:165)
+	at org.semanticweb.owlapi.io.AbstractOWLParser.getInputStream(AbstractOWLParser.java:127)
+	at org.semanticweb.owlapi.io.AbstractOWLParser.getInputSource(AbstractOWLParser.java:232)
+	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFXMLParser.parse(RDFXMLParser.java:72)
+	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+	... 27 more
+
